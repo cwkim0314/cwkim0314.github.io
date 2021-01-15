@@ -1,7 +1,7 @@
 ---
 layout: blog
 permalink: /blog/
-title: Chaewon Kim | Blog
+title: 金采原 | Blog
 pagination:
   enabled: true
 ---
