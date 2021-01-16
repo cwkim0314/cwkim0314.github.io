@@ -4,6 +4,10 @@ title: About
 permalink: /about/
 ---
 
+私のサイトを見つけてくれてありがとうございます。
+私はキムチェウォンと申します。
+
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
