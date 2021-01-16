@@ -1,5 +1,5 @@
 ---
 layout: home
-home_text: This is chaewon's creative space
+home_text: This is Chaewon's Creative Space
 title: Chaewon Kim
 ---
