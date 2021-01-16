@@ -17,6 +17,7 @@ layout: default
         <link href="https://fonts.googleapis.com/earlyaccess/nikukyu.css" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
     </head>
 
 <body>
@@ -24,10 +25,10 @@ layout: default
     <h1><p class="wf-sawarabimincho">{{ site.author_name }}</p></h1>
     <div class="row sub-heading">
         <div class="summary-about-me">
-            <p>{{ page.home_text }}</p>
+            <p class="wf-merriweather">{{ page.home_text }}</p>
         </div>
         <div class="nav-link">
-            {% include navigation.html %}
+            <p class="wf-merriweather">{% include navigation.html %}</p>
         </div>
     </div>
 </div>
