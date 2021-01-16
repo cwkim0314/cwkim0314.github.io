@@ -1,13 +1,8 @@
 ---
 layout: description
 ---
-<head>
-  <link href="https://fonts.googleapis.com/earlyaccess/kokoro.css" rel="stylesheet">
-  .wf-kokoro { font-family: "Kokoro"; }
-<head>
 
-<body>
-  <p class="wf-kokoro">
+
   <h2>{{ page.title }}</h2>
   <small>{{ post.date | date_to_string }}</small>
   {{content}}
@@ -30,5 +25,3 @@ layout: description
   <hr>
   {% include disqus_comments.html %}
 {% endif %}
-</p>
-<body>
