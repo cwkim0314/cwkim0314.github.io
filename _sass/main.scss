@@ -26,13 +26,13 @@ html {
 }
 
 body {
+  font-family: 'Kokoro';
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
   transition: background 0.1s ease-in, color 0.1s ease-in;
   // font-size: 120%;
 }
 .mid-section-home {
-  font-family: 'Kokoro';
   text-align: center;
   display: flex;
   flex-direction: column;
