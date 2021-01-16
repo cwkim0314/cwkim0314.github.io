@@ -2,9 +2,46 @@
 title: Chaewon Kim
 layout: default
 ---
+<head>
+<!-- ＜M+ 1p＞ -->
+<link href="https://fonts.googleapis.com/earlyaccess/mplus1p.css" rel="stylesheet" />
+<!-- Rounded M+ 1c -->
+<link href="https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css" rel="stylesheet" />
+<!-- はんなり明朝 -->
+<link href="https://fonts.googleapis.com/earlyaccess/hannari.css" rel="stylesheet" />
+<!-- こころ明朝 -->
+<link href="https://fonts.googleapis.com/earlyaccess/kokoro.css" rel="stylesheet" />
+<!-- さわらび明朝 -->
+<link href="https://fonts.googleapis.com/earlyaccess/sawarabimincho.css" rel="stylesheet" />
+<!-- さわらびゴシック -->
+<link href="https://fonts.googleapis.com/earlyaccess/sawarabigothic.css" rel="stylesheet" />
+<!-- ニクキュウ -->
+<link href="https://fonts.googleapis.com/earlyaccess/nikukyu.css" rel="stylesheet" />
+<!-- ニコモジ -->
+<link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet" />
+<!-- Noto Sans Japanese -->
+<link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet" />
 
+<style>
+  p { margin: 0 0 1em 0;  font-size: 50px; }
+  span { display: block;  font-weight: bold; }
+  
+  /*  google-font-japanese */
+  .wf-mplus1p { font-family: "Mplus 1p"; }
+  .wf-roundedmplus1c { font-family: "Rounded Mplus 1c"; }
+  .wf-hannari { font-family: "Hannari"; }
+  .wf-kokoro { font-family: "Kokoro"; }
+  .wf-sawarabimincho { font-family: "Sawarabi Mincho"; }
+  .wf-sawarabigothic { font-family: "Sawarabi Gothic"; }
+  .wf-nikukyu { font-family: "Nikukyu"; }
+  .wf-nicomoji { font-family: "Nico Moji"; }
+  .wf-notosansjapanese { font-family: "Noto Sans Japanese"; }
+</style>
+</head>
+
+<body>
 <div class="mid-section-home">
-    <h1>{{ site.author_name }}</h1>
+    <p class="wf-sawarabimincho"><h1>{{ site.author_name }}</h1></p>
     <div class="row sub-heading">
         <div class="summary-about-me">
             <p>{{ page.home_text }}</p>
@@ -14,3 +51,4 @@ layout: default
         </div>
     </div>
 </div>
+</body>
