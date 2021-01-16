@@ -10,13 +10,28 @@
   }
 }
 
-@font-face {
-  font-family: 'Rounded Mplus 1c';
-  font-style: normal;
-  font-weight: 500;
-  src: url(//fonts.gstatic.com/ea/roundedmplus1c/v1/RoundedMplus1c-Medium.eot);
-  src: url(//fonts.gstatic.com/ea/roundedmplus1c/v1/RoundedMplus1c-Medium.eot?#iefix) format('embedded-opentype'), url(//fonts.gstatic.com/ea/roundedmplus1c/v1/RoundedMplus1c-Medium.woff2) format('woff2'), url(//fonts.gstatic.com/ea/roundedmplus1c/v1/RoundedMplus1c-Medium.woff) format('woff'), url(//fonts.gstatic.com/ea/roundedmplus1c/v1/RoundedMplus1c-Medium.ttf) format('truetype');
+* {
+  font-size: 18px;
+  text-align: center;
 }
+
+.wf-mplus1p { font-family: "Mplus 1p"; }
+
+.wf-roundedmplus1c { font-family: "Rounded Mplus 1c"; }
+
+.wf-hannari { font-family: "Hannari"; }
+
+.wf-kokoro { font-family: "Kokoro"; }
+
+.wf-sawarabimincho { font-family: "Sawarabi Mincho"; }
+
+.wf-sawarabigothic { font-family: "Sawarabi Gothic"; }
+
+.wf-nikukyu { font-family: "Nikukyu"; }
+
+.wf-nicomoji { font-family: "Nico Moji"; }
+
+.wf-notosansjapanese { font-family: "Noto Sans Japanese"; }
 
 html {
   --primary-background-color: white;
@@ -27,7 +42,6 @@ html {
 }
 
 body {
-  font-family: "Rounded Mplus 1c" !important;
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
   transition: background 0.1s ease-in, color 0.1s ease-in;
