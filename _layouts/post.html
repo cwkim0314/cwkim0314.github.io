@@ -1,6 +1,12 @@
 ---
 layout: description
 ---
+
+<style>
+@import url(//fonts.googleapis.com/earlyaccess/mplus1p.css);
+</style>
+
+<p style="font-family:Kokoro;">
 <h2>{{ page.title }}</h2>
 <small>{{ post.date | date_to_string }}</small>
 {{content}}
@@ -17,6 +23,7 @@ layout: description
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
 </div>
+</p>
 
 {% if site.disqus.shortname and page.comments %}
   <hr>
