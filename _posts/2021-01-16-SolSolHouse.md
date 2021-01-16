@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: SolSol House
-categories: [Planning, Design]
+categories: [Design]
 ---
 
 自動走行カートMEME、プロジェクト紹介
