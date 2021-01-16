@@ -4,8 +4,24 @@ title: Project
 pagetype: blog
 ---
 <!-- This loops through the paginated posts -->
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>Google Fonts + 日本語</title>
+        <!-- ↓↓ここに貼り付ける↓↓ -->
+        <link href="https://fonts.googleapis.com/earlyaccess/mplus1p.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/earlyaccess/hannari.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/earlyaccess/kokoro.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/earlyaccess/sawarabimincho.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/earlyaccess/sawarabigothic.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/earlyaccess/nikukyu.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet" />
+    </head>
 
-
+<body>
 {% if paginator.total_posts == 0 %}
     <p>No posts right now.</p>
 {% else %}
@@ -25,7 +41,9 @@ pagetype: blog
   </div>
 {% endfor %}
 </div>
-
+</body>
+</html>    
+    
 <!--<div class="blogPage-categoryList">
     <ul>
     <li><a href="{{ "/categories/" | relative_url }}">Categories</a> : </li>
