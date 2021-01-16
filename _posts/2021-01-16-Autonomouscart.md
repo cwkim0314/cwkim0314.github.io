@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Autonomous Driving Cart, MEME
+title: Autonomous Driving Trolley, MEME
 categories: [AI]
 ---
 
