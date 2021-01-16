@@ -1,8 +1,24 @@
 ---
 layout: description
 ---
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>Google Fonts + 日本語</title>
+        <!-- ↓↓ここに貼り付ける↓↓ -->
+        <link href="https://fonts.googleapis.com/earlyaccess/mplus1p.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/earlyaccess/hannari.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/earlyaccess/kokoro.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/earlyaccess/sawarabimincho.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/earlyaccess/sawarabigothic.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/earlyaccess/nikukyu.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet" />
+    </head>
 
-
+<body>
   <h2>{{ page.title }}</h2>
   <small>{{ post.date | date_to_string }}</small>
   <p class="wf-kokoro">{{content}}</p>
@@ -25,3 +41,5 @@ layout: description
   <hr>
   {% include disqus_comments.html %}
 {% endif %}
+</body>
+</html>
