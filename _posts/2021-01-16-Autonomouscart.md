@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: Autonomous Driving Trolley, MEME
-categories: [AI]
+categories: [AI](./blog.html)
 ---
 
 ### 自動走行カートMEME、プロジェクト紹介  
