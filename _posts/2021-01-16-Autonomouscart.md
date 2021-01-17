@@ -27,4 +27,4 @@ categories: [AI]
 *   LSTM
 
 
-[Github](./https://github.com/cwkim0314/Autonomous-Driving-Trolley-MEME)
+[Github](https://github.com/cwkim0314/Autonomous-Driving-Trolley-MEME)
