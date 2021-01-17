@@ -18,7 +18,7 @@ Accuracyが高いimage trackingアルゴリズムを使用しても、お客様�
 マートには歩行が自由なお客様だけが来るのではありません。  
 車椅子に乗ったり、ベビーカーをお持ちのお客様に便利に使われるでしょう。  
 
-![CartMEME](https://github.com/cwkim0314/cwkim0314.github.io/tree/master/_posts/CartMEME.PNG)
+![CartMEME](https://github.com/cwkim0314/cwkim0314.github.io/tree/master/_posts/CartMEME.png)
 
 ### 使用されるアルゴリズム
 *   YOLO
