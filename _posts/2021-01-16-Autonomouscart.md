@@ -26,5 +26,5 @@ categories: [AI]
 *   Navigation(LiDAR)
 *   LSTM
 
-
+### 詳しくはGithubでご確認ください！
 [Github](https://github.com/cwkim0314/Autonomous-Driving-Trolley-MEME)
